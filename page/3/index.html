@@ -1,0 +1,722 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="Vian">
+  <meta name="keywords" content="">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Vian">
+<meta property="og:url" content="https://hexo.vian.top/page/3/index.html">
+<meta property="og:site_name" content="Vian">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Vian">
+<meta name="twitter:card" content="summary_large_image">
+  
+  <title>Vian</title>
+
+  <link  rel="stylesheet" href="https://cdn1.tianli0.top/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/css/shubiao.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<link rel="stylesheet" href="/css/macpanel.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"hexo.vian.top","root":"/","version":"1.8.12","typing":{"enable":true,"typeSpeed":80,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname"}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.1"><link rel="alternate" href="/atom.xml" title="Vian" type="application/atom+xml">
+</head>
+
+
+<body>
+  <header style="height: 100vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Vian</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/atom.xml">
+                <i class="iconfont icon-rss"></i>
+                订阅
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.webp') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="想要的都拥有 得不到的都释怀">
+              
+            </span>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          style=margin-top:0>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/02/07/%E8%A7%81%E6%96%87%E5%AE%89/" target="_self">
+          <img src="https://bu.dusays.com/2022/02/07/07e6db1abdbad.png" srcset="/img/loading.gif" lazyload alt="见文安">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/02/07/%E8%A7%81%E6%96%87%E5%AE%89/" target="_self">
+          见文安
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/02/07/%E8%A7%81%E6%96%87%E5%AE%89/" target="_self">
+          
+          
+            
+          
+          见文安：&emsp;&emsp;大家新年好，祝大家虎年吉祥、身体健康、阖家团圆、财源广进。
+过年这些天挺安静的，没回家，疫情原因吧，在深圳宅了十一天。这些天在家把那部没写完的小说看到下载的那一章然后又戒掉了，还是不看的好，最近也没关注过小说圈什么的，小说告一段落。
+刚放假那几天在玩我的世界，玩了好几天就没上线了。记得刷石机炸了，那天下线忘了修了，不知道合作发展的两位会不会修。晚上回家上线看看吧。不
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-02-07 09:40" pubdate>
+              2022-02-07
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/First/">First</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E7%A5%9D%E7%A6%8F-%E5%B0%8F%E7%BB%93/">祝福 小结</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/01/24/%E4%B8%80%E4%BA%9B%E8%AF%9D/" target="_self">
+          一些话
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/01/24/%E4%B8%80%E4%BA%9B%E8%AF%9D/" target="_self">
+          
+          
+            
+          
+          最近好像快半个月没有更新博客了，最近情绪低落，对什么事都意兴阑珊，我已经不知道是为什么了，恍惚的厉害。
+博客博友的博客每天都会看一次（工作日），有的评论有的没评论，友链只是一部分，在我这出现过的我都会关注，技术类关注度比较低。有几个博友的博客比较喜欢，不在于主题，主要在于内容。我啊，文笔很差，写不出很优雅的句子，不过我初衷只是为了记录一些事，能写出来，以后能够看得懂就好了。前些天想着添加一些单项链
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-01-24 09:56" pubdate>
+              2022-01-24
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E6%9D%82%E8%B0%88/">杂谈</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%9D%82%E8%B0%88-%E6%9C%89%E6%84%9F/">杂谈 有感</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/01/11/%E6%98%A8%E6%99%9A%E4%B8%8B%E9%9B%A8%E4%BA%86/" target="_self">
+          <img src="https://bu.dusays.com/2022/02/08/230679eed61f8.png" srcset="/img/loading.gif" lazyload alt="昨晚下雨了">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/01/11/%E6%98%A8%E6%99%9A%E4%B8%8B%E9%9B%A8%E4%BA%86/" target="_self">
+          昨晚下雨了
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/01/11/%E6%98%A8%E6%99%9A%E4%B8%8B%E9%9B%A8%E4%BA%86/" target="_self">
+          
+          
+            
+          
+          昨晚下雨了，深圳这个多雨的城市已经有段时间没下雨了。最初刚到深圳的一个月里大半时间都在下雨，不带伞是没办法出门的。刚工作那会儿也是有意思，每天七点半出门，走几分钟必下雨，猝不及防的淅淅沥沥带来的不仅有凉爽还有些许忧伤。这个南方城市，曾是我儿时想来的地方，那时爸妈在广州打工，一年几天的见面格外珍贵，我奶奶还常打趣道“还是跟妈亲”。昨晚的雨带来了悲伤，雨——对我来说它大多意味着悲伤忧郁，小学最怕下雨，
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-01-11 21:01" pubdate>
+              2022-01-11
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E6%98%A8%E6%99%9A%E4%B8%8B%E9%9B%A8%E4%BA%86/">昨晚下雨了</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E9%9B%A8/">雨</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/01/11/%E5%A6%82%E6%9E%9C%E4%B8%8D%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%96%9C%E6%AC%A2/" target="_self">
+          如果不是因为喜欢
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/01/11/%E5%A6%82%E6%9E%9C%E4%B8%8D%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%96%9C%E6%AC%A2/" target="_self">
+          
+          
+            
+          
+          如果不是喜欢，那么结婚的意义是什么？只是为了传宗接代吗？我讨厌农村不上学就结婚的理念……周末没出门，买衣服又鸽了……周六睡了一天，五点半才醒来，房东通知做核酸我也没看到，赶紧起来洗漱一下去做核酸。醒来看手机发现一个奇怪的微信群，我爸拉的，还有一个同村的长辈，发了七八条语音，两个人喝醉了，我爸说那个长辈要给我介绍对象，让我发照片给他……瞬间感觉有点烦，我最烦我爸喝完酒给我说话，都不知道自己在说啥了还
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-01-11 01:12" pubdate>
+              2022-01-11
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E5%A6%82%E6%9E%9C%E4%B8%8D%E6%98%AF%E5%96%9C%E6%AC%A2/">如果不是喜欢</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E5%A9%9A%E5%A7%BB-%E7%88%B1%E6%83%85-%E8%B0%88%E5%AF%B9%E8%B1%A1/">婚姻 爱情 谈对象</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/01/10/%E5%8F%8B%E8%BE%BE%E4%BB%A5%E4%B8%8A%E6%81%8B%E4%BA%BA%E6%9C%AA%E6%BB%A1%E6%98%AF%E4%B8%80%E7%A7%8D%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%EF%BC%9F/" target="_self">
+          友达以上恋人未满是一种怎样的体验？
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/01/10/%E5%8F%8B%E8%BE%BE%E4%BB%A5%E4%B8%8A%E6%81%8B%E4%BA%BA%E6%9C%AA%E6%BB%A1%E6%98%AF%E4%B8%80%E7%A7%8D%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%EF%BC%9F/" target="_self">
+          
+          
+            
+          
+          
+            作者：匿名用户链接：https://www.zhihu.com/question/30095227/answer/226464329
+          
+ともだちいじょう、こいびとみまん     友達以上、恋人未満この関係は気持ちいいです。這樣的關係感覺很好。这是我对一个人说过的一句话。但没有说出这句话的意思这应该算是一个介于爱情和友情之间的情感，只动心，不动情。这需要
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-01-10 00:13" pubdate>
+              2022-01-10
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/01/07/%E5%80%92%E9%9C%89%E7%9A%84%E8%80%81%E7%99%BB%E5%92%8C%E6%AF%9B%E6%A1%91/" target="_self">
+          倒霉的老登和毛桑
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/01/07/%E5%80%92%E9%9C%89%E7%9A%84%E8%80%81%E7%99%BB%E5%92%8C%E6%AF%9B%E6%A1%91/" target="_self">
+          
+          
+            
+          
+          老登之前给我说过年不回去了，之前还在想过年见不到了，不过我觉得毛桑肯定会过年前几天偷跑回家。他俩一起去打寒假工了，过年不回家挣点钱。世事难料，郑州突然疫情严重了，他俩是从郑州出发的，而且工作了一周了，前天晚上健康码直接红了，虽然第二天又绿了，不过还是要隔离。最初说强制隔离还要自费，好家伙，出门没挣到钱反而要花钱体验豪华隔离套餐，确实有点难顶。今天有了转机，隔离仍旧要隔离，但是不用自费，隔离点环境也
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-01-07 21:32" pubdate>
+              2022-01-07
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E5%80%92%E9%9C%89%E8%9B%8B/">倒霉蛋</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E5%8F%8B%E4%BA%BA-%E8%B6%A3%E4%BA%8B/">友人 趣事</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/01/06/%E7%96%AB%E6%83%85%E4%B8%8B%E7%9A%84%E6%84%9F%E5%BF%B5/" target="_self">
+          疫情下的感念
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/01/06/%E7%96%AB%E6%83%85%E4%B8%8B%E7%9A%84%E6%84%9F%E5%BF%B5/" target="_self">
+          
+          
+            
+          
+          很不幸，老家突然有了疫情，就在我们隔壁镇，是从许昌禹州回去的，四通镇虽然看着很破，像极了90年代，给人感觉也是破破旧旧没生机的感觉，但是他地理位置很特殊，人流量很大的。我们村上的人也会经常去那边买菜逛街之类的。好巧不巧那个从禹州回来的病例就是就是四通镇的，放假了她也转了转，很无奈啊，谁也不想感染新冠，也不想感染家人，感染大家，希望她不要被网暴吧，虽然我过年大概率回不了家了，这不能怪她。早上看新闻发
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-01-06 17:05" pubdate>
+              2022-01-06
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E7%96%AB%E6%83%85%E4%B8%8B%E7%9A%84%E6%84%9F%E5%BF%B5/">疫情下的感念</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E7%96%AB%E6%83%85-%E9%98%B2%E7%96%AB/">疫情 防疫</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/page/2/#board"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/#board">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/#board">4</a><a class="page-number" href="/page/5/#board">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/#board">8</a><a class="extend next" rel="next" href="/page/4/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> <i class="iconfont icon-love"></i> <a href="https://foreverblog.cn/go.html" target="_blank" rel="nofllow noopener"><span>虫洞</span></a> <i class="iconfont icon-love"></i> <a href="https://www.vian.work" target="_blank" rel="nofollow noopener"><span>vian</span></a> <div style="font-size: 0.85rem"> <span id="timeDate">载入天数...</span> <span id="times">载入时分秒...</span> <script src="/js/duration.js"></script> </div> <script async src="/js/aidaori.js"></script> 
+  </div>
+  
+
+  
+  <!-- 备案信息 -->
+  <div class="beian">
+    <span>
+      <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+        豫ICP备2021037700号-1
+      </a>
+    </span>
+    
+  </div>
+
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn1.tianli0.top/npm/nprogress@0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn1.tianli0.top/npm/nprogress@0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn1.tianli0.top/npm/jquery@3/dist/jquery.min.js" ></script>
+<script  src="https://cdn1.tianli0.top/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script  src="https://cdn1.tianli0.top/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/dianjichuzi.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/caidai.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script>
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
